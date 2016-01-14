@@ -4,7 +4,7 @@
 .NAME: Get-Password-Expiration.ps1
 
 .SYNOPSIS 
-    Resets the AD Domain Account Password for the given list of users to the New Password
+   
 
 .NOTES
     AD Powershell Module is Required to Run the Script

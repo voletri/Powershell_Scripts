@@ -1,0 +1,1 @@
+﻿Get-ADGroup -LDAPFilter '(!(member=*))' -Properties SamAccountName,DisplayName,ManagedBy,GroupCategory,GroupScope|select SamAccountName,DisplayName,ManagedBy,GroupCategory,GroupScope|Export-Csv C:\Temp\empty_AD_Groups1.csv -NoTypeInformation
